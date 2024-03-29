@@ -1,8 +1,12 @@
 @import "bootstrap/dist/css/bootstrap";
 
+body {
+    z-index: 1;
+}
+
 .navbar-container,
 .content-container {
-    min-width: 50%;
+    min-width: 75%;
 }
 
 .navbar-container {
@@ -34,6 +38,17 @@ p {
     text-align: justify;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    bottom: 0%;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
 @media only screen and (max-width: 480px) {
     .nav-link-brand {
         margin-top: 2vw;
@@ -53,5 +68,11 @@ p {
 
     .github-div {
         padding-top: 2vh;
+    }
+}
+
+@media only screen and (min-width: 2281px) {
+    .footer {
+        position: fixed;
     }
 }
