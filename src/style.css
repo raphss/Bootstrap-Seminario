@@ -1,0 +1,21 @@
+@import "bootstrap/dist/css/bootstrap";
+
+.nav-link,
+.nav-link:visited,
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link:active,
+.nav-link:active::selection,
+.nav-link:focus::selection {
+    background: transparent;
+    color: rgba(255, 255, 255);
+}
+
+@media only screen and (max-width: 768px) {
+    .img-div {
+        display: flex;
+        flex-direction: column;
+    }
+}
