@@ -40,6 +40,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       title: 'Seminário Bootstrap',
+      favicon: './src/images/icon.ico',
       filename: 'index.html',
       chunks: ['index'],
       inject: 'body',
