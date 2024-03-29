@@ -34,6 +34,9 @@ module.exports = {
 
   entry: {
     index: './src/index.js',
+    home: './src/home.js',
+    about: './src/about.js',
+    contact: './src/contact.js',
   },
 
   plugins: [
@@ -43,6 +46,33 @@ module.exports = {
       favicon: './src/images/icon.ico',
       filename: 'index.html',
       chunks: ['index'],
+      inject: 'body',
+      scriptLoading: 'defer',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/home.html',
+      title: 'Página Inicial',
+      favicon: './src/images/icon.ico',
+      filename: 'home.html',
+      chunks: ['home'],
+      inject: 'body',
+      scriptLoading: 'defer',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      title: 'Sobre o projeto',
+      favicon: './src/images/icon.ico',
+      filename: 'about.html',
+      chunks: ['about'],
+      inject: 'body',
+      scriptLoading: 'defer',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/contact.html',
+      title: 'Contato',
+      favicon: './src/images/icon.ico',
+      filename: 'contact.html',
+      chunks: ['contact'],
       inject: 'body',
       scriptLoading: 'defer',
     }),

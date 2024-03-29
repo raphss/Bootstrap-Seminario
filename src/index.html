@@ -4,43 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seminário Bootstrap</title>
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
 </head>
 
 <body class="bg-dark text-light">
 
-    <nav class="navbar navbar-expand-sm navbar-dark p-3">
-        <div class="container navbar-container">
-
-            <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active nav-link-brand"><img src="./images/bootstrap.png"
-                                alt="bootstrap-logo" width="25" height="25" class="align-top mx-2">Seminário
-                            Bootstrap</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Página inicial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Sobre o projeto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contato</a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </nav>
-
-    <div class="container content-container p-5">
+    <div class="container content-container px-5 py-3">
 
         <h1>Seminário Bootstrap com HTML5</h1>
         <p>O objetivo do projeto é explorar a integração entre o Bootstrap e o HTML5, dois elementos cruciais no
