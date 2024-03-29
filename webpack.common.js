@@ -38,9 +38,10 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/template.html',
+      template: './src/index.html',
       title: 'Seminário Bootstrap',
       filename: 'index.html',
+      chunks: ['index'],
       inject: 'body',
       scriptLoading: 'defer',
     }),
