@@ -36,6 +36,10 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Contatos
 
-Para mais informações sobre o projeto ou para entrar em contato com os participantes, visite nossa [página de contatos](contatos.html).
+Para mais informações sobre o projeto ou para entrar em contato com os participantes, visite nossa [página de contatos](https://raphss.github.io/Bootstrap-Seminario/contact.html).
 
+<!-- Markdown link & img dfn's -->
+[url]: https://raphss.github.io/Bootstrap-Seminario/
+[odp-url]: https://www.theodinproject.com
+[url-image]: https://img.shields.io/badge/Live_Website-purple
 
