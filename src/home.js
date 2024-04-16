@@ -202,7 +202,7 @@ function createDOMElements() {
 
   const downloadLink = document.createElement('a');
   downloadLink.href =
-    'https://github.com/raphss/repo/raw/main/Seminario Bootstrap.pdf';
+    'https://github.com/raphss/Bootstrap-Seminario/raw/main/Semin%D0%B0rio%20Bootstrap.pdf';
   downloadLink.download = '';
   downloadLink.className = 'btn-links';
 
