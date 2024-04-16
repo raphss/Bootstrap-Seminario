@@ -1,5 +1,9 @@
 @import "bootstrap/dist/css/bootstrap";
 
+:root {
+    color-scheme: dark;
+}
+
 body {
     z-index: 1;
 }
@@ -18,12 +22,14 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     position: relative;
 }
 
 h1::after,
-h2::after {
+h2::after,
+h3::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -33,7 +39,8 @@ h2::after {
     left: 0;
 }
 
-p {
+p,
+ul {
     margin-top: 15px;
     text-align: justify;
 }
@@ -49,6 +56,38 @@ p {
     z-index: 0;
 }
 
+.div-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4vh 0vh;
+}
+
+.div-images h4 {
+    margin: 0vh 0vh 2vh 0vh;
+}
+
+h4 {
+    margin: 3vh 0vh 0vh 0vh;
+}
+
+.example-images {
+    border-radius: 3vh;
+    max-width: 50%;
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-links {
+    text-decoration: none;
+}
+
+
 @media only screen and (max-width: 480px) {
     .nav-link-brand {
         margin-top: 2vw;
@@ -59,7 +98,8 @@ p {
         padding-top: 2vh;
     }
 
-    p {
+    p,
+    ul {
         text-align: initial;
     }
 }
@@ -74,10 +114,22 @@ p {
         padding-top: 2vh;
     }
 
-    p {
+    p,
+    ul {
         text-align: initial;
     }
 
+    .example-images {
+        max-width: 100%;
+    }
+
+    .div-images h4 {
+        margin: -3vh 0vh 2vh 0vh;
+    }
+
+    h4 {
+        padding: 0vh;
+    }
 }
 
 @media only screen and (min-width: 2281px) {
