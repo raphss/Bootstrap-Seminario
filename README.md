@@ -1,6 +1,6 @@
 # Bootstrap-Seminario
 
-> Seminário sobre a ferramenta Bootstrap 5 em conjunto com HTML5, realizado por alunos da Universidade Unileste.
+> Seminário sobre a ferramenta Bootstrap em conjunto com HTML5, realizado por alunos da Universidade Unileste.
 
 [![Live website][url-image]][url]
 
@@ -10,7 +10,7 @@
 
 ## Sobre o Projeto
 
-Este projeto é parte de um seminário realizado por alunos da Universidade Unileste, onde exploramos a integração entre o Bootstrap 5 e o HTML5 para desenvolvimento web contemporâneo.
+Este projeto é parte de um seminário realizado por alunos da Universidade Unileste, onde exploramos a integração entre o Bootstrap e o HTML5 para desenvolvimento web contemporâneo.
 
 O objetivo deste projeto é proporcionar um entendimento aprofundado e habilidades para criar interfaces web dinâmicas e eficientes. Desde uma breve contextualização histórica até a implementação prática, abordamos os conceitos essenciais dessas tecnologias, incluindo o sistema de grid e diversos componentes.
 
@@ -39,7 +39,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 Para mais informações sobre o projeto ou para entrar em contato com os participantes, visite nossa [página de contatos](https://raphss.github.io/Bootstrap-Seminario/contact.html).
 
 <!-- Markdown link & img dfn's -->
+
 [url]: https://raphss.github.io/Bootstrap-Seminario/
 [odp-url]: https://www.theodinproject.com
 [url-image]: https://img.shields.io/badge/Live_Website-purple
-

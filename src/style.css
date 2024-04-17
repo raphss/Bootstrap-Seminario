@@ -45,17 +45,6 @@ ul {
     text-align: justify;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.8rem;
-    bottom: 0%;
-    position: relative;
-    width: 100%;
-    z-index: 0;
-}
-
 .div-images {
     display: flex;
     justify-content: center;
@@ -87,6 +76,16 @@ h4 {
     text-decoration: none;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    bottom: 0%;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
 
 @media only screen and (max-width: 480px) {
     .nav-link-brand {
@@ -129,11 +128,5 @@ h4 {
 
     h4 {
         padding: 0vh;
-    }
-}
-
-@media only screen and (min-width: 2281px) {
-    .footer {
-        position: fixed;
     }
 }

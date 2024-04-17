@@ -63,13 +63,13 @@ function createDOMElements() {
   githubDiv.className = 'px-4 github-div';
 
   const githubH2 = document.createElement('h2');
-  githubH2.textContent = 'Repositório GitHub';
+  githubH2.textContent = 'Repositório Github';
   githubDiv.appendChild(githubH2);
 
   const githubP = document.createElement('p');
   githubP.style.textAlign = 'initial';
   githubP.textContent =
-    'Clique na imagem para ir ao repositório GitHub ou acesse em: ';
+    'Clique na imagem para ir ao repositório Github ou acesse em: ';
 
   const githubLink = document.createElement('a');
   githubLink.href = 'https://github.com/raphss/Bootstrap-Seminario/';
